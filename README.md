@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+The difference between an adaptive and fully responsive website is that adaptive has multiple site layouts to accomodate
+different screen sizes. Responsive will change 1 main layout to accomodate the screen size as it changes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first web design is where you design the site with the mobile size being the priority. You will design a mobile site first, then alter
+the site to adapt to larger screen sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Using 62.5% for the font-size will make 1rem equal 10px in the html document for easier unit conversion.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS preprocessing is where you are able to use a plugin, or program that has it's own syntax to run your CSS. For example: LESS lets you implement
+nesting into your CSS, which you could never do before in vanilla CSS. It is very seemless and processes itself through the CSS file.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is tied between nesting and escaping. I am a organization freak and I love the way you can nest to be more
+organized. The concept that gives me the most trouble (for now) is probably mixins. I can only ever find one or two uses for them in my code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -78,7 +92,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -104,13 +118,13 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [x]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [x] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
