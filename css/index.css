@@ -201,6 +201,22 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  white-space: nowrap;
+  font-size: 2rem;
+  max-width: 25%;
+  padding: 2% 17% 2% 17%;
+  border-radius: 5px;
+  background-color: #22283A;
+}
+.btn:hover {
+  background-color: white;
+  color: #22283A;
+}
 .home .intro h2 {
   padding: 15px;
 }
