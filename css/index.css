@@ -171,9 +171,11 @@ p {
 .navigation {
   display: flex;
   flex-wrap: wrap;
+  position: fixed;
   flex-direction: column;
   align-items: center;
-  background-color: #dedede;
+  width: 100%;
+  background-color: rgba(222, 222, 222, 0.5);
 }
 .navigation .navlogo {
   font-family: 'Russo One', sans-serif;
@@ -191,10 +193,14 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width: 30%;
+  width: 40%;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.6rem;
   padding-bottom: 1%;
+}
+.navigation .navbar .navitem {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 @media (max-width: 500px) {
   .navigation .navbar {
@@ -249,6 +255,7 @@ footer {
 @media (max-width: 500px) {
   .home .intro img {
     max-height: 130px;
+    padding-top: 0%;
   }
 }
 .home .space-images {

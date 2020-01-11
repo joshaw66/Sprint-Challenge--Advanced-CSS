@@ -2,10 +2,12 @@
 
 .navigation {
     .flexy;
+    position: fixed;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     //border: solid;
-    background-color: #dedede;
+    background-color: rgba(222, 222, 222, 0.5);
 
     .navlogo {
         font-family: 'Russo One', sans-serif;
@@ -22,10 +24,15 @@
         .flexy;
         flex-direction: row;
         justify-content: space-between;
-        width: 30%;
+        width: 40%;
         font-family: 'Ubuntu', sans-serif;
         font-size: 1.6rem;
         padding-bottom: 1%;
+
+        .navitem {
+            padding-left: 3%;
+            padding-right: 3%;
+        }
 
         @media @mobile {
             width: 75%;
